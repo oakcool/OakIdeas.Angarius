@@ -17,9 +17,7 @@ namespace OakIdeas.Angarius
     public abstract class AngariusProviderBase : IAngariusProvider
     {
 
-        public List<string> Functionalities
-        {
-            get; set; }
+        public List<string> Functionalities { get; set; }
 
         public AngariusProviderBase()
         {

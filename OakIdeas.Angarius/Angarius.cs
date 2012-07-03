@@ -56,6 +56,7 @@ namespace OakIdeas.Angarius
                 IAngariusProvider angariusProvider = RegistredProviders[functionality];
                 message.Content = angariusProvider.ProcessMessage(message);
                 message.IsReturned = true;
+                
                 //TODO: Call sender to finalize process;
             }
         }
