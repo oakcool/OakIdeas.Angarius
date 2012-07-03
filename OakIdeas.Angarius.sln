@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OakIdeas.Angarius", "OakIdeas.Angarius\OakIdeas.Angarius.csproj", "{5766B8F2-BB8E-4330-965D-5C29E1C54229}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OakIdeas.Angarius.Tests", "OakIdeas.Angarius.Tests\OakIdeas.Angarius.Tests.csproj", "{3AD11574-80DF-48E1-A6C1-8D10234BD489}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D27EC753-35F3-4BC8-9ADC-2EED72A48932}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		OakIdeas.Angarius.vsmdi = OakIdeas.Angarius.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = OakIdeas.Angarius.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5766B8F2-BB8E-4330-965D-5C29E1C54229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5766B8F2-BB8E-4330-965D-5C29E1C54229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5766B8F2-BB8E-4330-965D-5C29E1C54229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5766B8F2-BB8E-4330-965D-5C29E1C54229}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AD11574-80DF-48E1-A6C1-8D10234BD489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD11574-80DF-48E1-A6C1-8D10234BD489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD11574-80DF-48E1-A6C1-8D10234BD489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD11574-80DF-48E1-A6C1-8D10234BD489}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
